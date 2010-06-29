@@ -9,7 +9,10 @@ Ferramentas utilizadas:
  - [ZenTest](http://www.zenspider.com/ZSS/Products/ZenTest) (executa testes automaticamente ao salvar os fontes)
  - [Autotest Notification plugin](http://github.com/carlosbrando/autotest-notification) (notificação dos testes em popup)
 
- 
+- How to install:
+sudo gem install rspec
+sudo gem install autotest-notification
+sudo gem install ZenTest 
 _______
  
 GURU-RS

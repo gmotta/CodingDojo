@@ -25,8 +25,8 @@ class Triangulo
 	end
 
 	def pitagorico?
-		hipotenusa = [@a, @b, @c].max
-		valida and (@a == @b and @b == @c)
+		lados = [@a, @b, @c].sort
+		valida and ((lados[2] * lados[2]) == (lados[1] * lados[1]) + (lados[0] * lados[0]))
 	end
 
 

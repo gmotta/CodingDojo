@@ -46,8 +46,8 @@ describe Triangulo do
 	end
 
 	it "deve ser escaleno e pitagorico com 3,4,5" do
-		Triangulo.new(4,4,2).escaleno?.should be_true
-		Triangulo.new(4,4,2).pitagorico?.should be_true
+		Triangulo.new(3,4,5).escaleno?.should be_true
+		Triangulo.new(3,4,5).pitagorico?.should be_true
 	end
 
 	it "deve ser isoceles com 4,4,4" do 
