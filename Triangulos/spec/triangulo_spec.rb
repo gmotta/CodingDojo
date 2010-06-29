@@ -10,9 +10,9 @@ describe Triangulo do
 		Triangulo.new(-1,-1,-5).valida.should be_false
 	end 
 
-  it "triangulo com valores nulos deve retornar falso" do
-    Triangulo.new(nil,nil,nil).valida.should be_false
-  end
+  	it "triangulo com valores nulos deve retornar falso" do
+    		Triangulo.new(nil,nil,nil).valida.should be_false
+  	end
 
 	it "triangulo com valores zerados deve retornar falso" do
 		Triangulo.new(0,0,0).valida.should be_false	
@@ -29,12 +29,11 @@ describe Triangulo do
 		Triangulo.new(3,5,2).valida.should be_false
 	end
 
-	it "deve ser equilatero com 5,5,5"
-	do
+	it "deve ser equilatero com 5,5,5" do
 		Triangulo.new(5,5,5).equilatero?.should be_true
 	end
 
-  it "deve retornar escaleno com 3,6,5" do
+ 	it "deve retornar escaleno com 3,6,5" do
 		Triangulo.new(3,6,5).escaleno?.should be_true
 	end
 
@@ -54,8 +53,4 @@ describe Triangulo do
 	it "deve ser isoceles com 4,4,4" do 
 		Triangulo.new(4,4,4).isoceles?.should be_true
 	end
-
-	it "deve ser equilatero com 5,5
 end
-
-
